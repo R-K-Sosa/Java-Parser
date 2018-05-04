@@ -1,0 +1,15 @@
+program Test3 ;
+const
+  a  = 1 ;
+  b  = 2  ;
+  c  =  false  ;
+  d  =  4 ;
+type
+  S  =  record s , g : integer end ;
+  T  = array [1..2] of integer ;
+var
+  x : integer ;
+begin
+  if x = 2 then
+    x := 1
+end.

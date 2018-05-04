@@ -1,0 +1,17 @@
+program Test4 ;
+  type S = record f , g : boolean end ;
+  var v : S ;
+
+  procedure P(x : integer) ;
+    const n = 10 ;
+    type T = array [1..n] of integer ;
+    var y , z : T ;
+    procedure Q ;
+    begin read(x) ; v.g := false end ;
+
+  begin
+    y := z ;
+    Q ; P(5) ;
+    write(x)
+  end ;
+begin v.f := true  P(5) end.
